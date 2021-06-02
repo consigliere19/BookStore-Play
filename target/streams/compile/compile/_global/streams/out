@@ -1,0 +1,14 @@
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:12:1: value create is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /books/create                      controllers.BooksController.create[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:13:1: value save is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mPOST     /books/create                      controllers.BooksController.save[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:14:1: value show is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /books/:id                      controllers.BooksController.show(id: Integer)[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:15:1: value edit is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean wait?[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /books/edit/:id                      controllers.BooksController.edit(id: Integer)[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:16:1: value update is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mPOST     /books/edit                    controllers.BooksController.update[0m
+[0m[[0m[31merror[0m] [0m[0mE:\BookStoreApp\conf\routes:17:1: value destroy is not a member of controllers.BooksController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /books/delete/:id                      controllers.BooksController.destroy(id: Integer)[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

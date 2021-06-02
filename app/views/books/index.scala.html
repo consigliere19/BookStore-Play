@@ -1,0 +1,18 @@
+@(books: Set[Book])
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Books</title>
+</head>
+<body>
+    <ul>
+    @for(book <- books) {
+        <li>
+            <span>@book.title</span>
+            <span>@book.author</span>
+            <span>@book.price</span>
+        </li>
+        }
+    </ul>
+</body>
+</html>
